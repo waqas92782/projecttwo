@@ -1,0 +1,238 @@
+
+/* about page styling  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.About-Our-Company {
+    border-top: 1px dashed rgb(223, 221, 221);
+}
+
+.about-company-baner-div {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url(about-us-page-heading.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.about-detail-box h1 {
+    font-weight: 800;
+    font-size: 50px;
+    background-color: #1e1d1d3a;
+    padding: 10px 30px;
+}
+
+.about-detail-box p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-details-box2 {
+    padding: 0px 20px !important;
+    width: 100%;
+    font-weight: 800;
+    font-family: Times, 'Times New Roman', serif;
+
+}
+
+.about-details-box2 p {
+    color: rgb(203, 201, 201);
+    font-size: 17px;
+}
+
+#p-border {
+    border-bottom: 1px dotted rgb(168, 163, 163);
+}
+
+
+.about-icon-box .fa-brands {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #313030;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s;
+    flex-direction: column;
+}
+
+.about-icon-box{
+    display: flex;
+}
+
+
+.about-icon-box .fa-brands:hover{
+    background-color: #492e2e;
+    color: rgb(7, 158, 135);
+    cursor: pointer;
+
+}
+
+
+
+.Our-Amazing-Team{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+.Our-Amazing-Team h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.Our-Amazing-Team p{
+    text-align: center;
+    font-size:18px;
+    color: #969090;
+    font-style: italic;
+}
+
+
+.main-iamge-box{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgb(77, 76, 76);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+
+.team-member-info h3{
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
+
+.team-member-info:hover h3{
+    color: rgb(146, 146, 37);
+
+}
+
+.team-iamge-box{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    
+}
+.team-iamge-box img{
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.about-hover-image-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262424d6;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    transition: all 0.9s;
+    align-items: center;
+}
+
+.team-iamge-box:hover .about-hover-image-box{
+    opacity: 1;
+}
+
+
+.about-hover-image-box .fa-brands{
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    padding: 20px 20px;
+    background-color:white;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.9s;
+
+}
+
+
+.about-hover-image-box .fa-brands:hover{
+    background-color: yellowgreen;
+    transform: translateY(-20px);
+}
+
+
+.Our-Amazing-Team{
+    border-bottom: 2px dashed rgb(209, 206, 206);
+}
+
+
+
+
+.Our-Services-layout {
+    padding: 30px 0px;
+    border-bottom: 1px dashed rgb(209, 206, 206);
+}
+
+
+.Our-Services-layout h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Our-Services-layout p{
+    font-size: 20px;
+    color: rgb(163, 155, 155);
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+.Our-Services-card{
+    padding: 30px 30px;
+    text-align: center;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 13px rgb(195, 193, 193);
+}
+
+.Our-Services-card img{
+    width: 100%;
+}
+
+
+.Our-Services-card h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.Our-Services-card p{
+    font-size: 14px;
+    padding: 5px;
+    color: rgb(36, 35, 35);
+}
